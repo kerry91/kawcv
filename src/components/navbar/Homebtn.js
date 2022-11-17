@@ -7,7 +7,7 @@ const Homebtn = () => {
         <li>
                 <NavLink
                   exact
-                  to="/Home"
+                  to="/"
                   activeClassName="active"
                   className="nav-links "
                 >
