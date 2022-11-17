@@ -11,7 +11,7 @@ const Navbar = () => {
     <div className={click ? "navbar" : ""} onClick={() => Close()} />
         <nav className="navbar" onClick={(e) => e.stopPropagation()}>
           <div class="nav-wrapper">
-            <NavLink exact to="/Home" className="nav-logo black-text">
+            <NavLink exact to="/" className="nav-logo black-text">
               KAW Inc.
             </NavLink>
             {/*eslint-disable-next-line jsx-a11y/anchor-is-valid*/}
@@ -29,7 +29,7 @@ const Navbar = () => {
               <li>
                 <NavLink
                   exact
-                  to="/Home"
+                  to="/"
                   activeClassName="active"
                   className="nav-links "
                   onClick={click ? handleClick : null}
