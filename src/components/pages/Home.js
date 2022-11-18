@@ -5,7 +5,6 @@ import About from "./About"
 import Skills from './Skills'
 import Experience from './Experience'
 import Education from './Education'
-import Portfolio from './Portfolio'
 import Footer from "../footer/Footer"
 
 
@@ -24,7 +23,6 @@ const Home = () => {
                             <Skills/>
                             <Experience/>
                             <Education/>
-                            <Portfolio/>
                         </div>
                     </div>
                 </div>

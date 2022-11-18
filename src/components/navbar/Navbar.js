@@ -72,17 +72,9 @@ const Navbar = () => {
                   <i class="fa-solid fa-user-graduate fa-sm"></i> Education
                 </NavLink>
               </li>
-              <li>
-                <NavLink
-                  exact
-                  to="/Portfolio"
-                  activeClassName="active"
-                  className="nav-links"
-                  onClick={click ? handleClick : null}
-                >
-                  <i class="fa-solid fa-address-card fa-sm"></i> Portfolio
-                </NavLink>
-              </li>
+              <li className="nav-item">
+             <a activeclassname="active" class="nav-links" href="https://kaw-portfolio.netlify.app" rel="noreferrer"><i class="fa-solid fa-address-card fa-sm"></i>Portfolio</a>
+            </li>
             </ul>
           </div>
         </nav>
