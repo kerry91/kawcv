@@ -13,7 +13,9 @@
 }
 
 .nav-menu{
-  margin-left: 50%;
+  position: absolute;
+  top: 0;
+  right: 5%;
 }
 
 .page-footer, .footer-copyright{
