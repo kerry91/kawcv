@@ -28,50 +28,6 @@ const Navbar = () => {
             <ul
               className={click ? "nav-menu active" : "nav-menu"}
             >
-              <li>
-                <NavLink
-                  exact
-                  to="/"
-                  activeClassName="active"
-                  className="nav-links "
-                  onClick={click ? handleClick : null}
-                >
-                  <i class="fa-solid fa-house fa-sm"></i> Home
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  exact
-                  to="/Skills"
-                  activeClassName="active"
-                  className="nav-links"
-                  onClick={click ? handleClick : null}
-                >
-                  <i class="fa-solid fa-wand-magic-sparkles fa-sm"></i> Languages
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  exact
-                  to="/Experience"
-                  activeClassName="active"
-                  className="nav-links"
-                  onClick={click ? handleClick : null}
-                >
-                  <i class="fa-solid fa-id-badge fa-sm"></i> Experience
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  exact
-                  to="/Education"
-                  activeClassName="active"
-                  className="nav-links"
-                  onClick={click ? handleClick : null}
-                >
-                  <i class="fa-solid fa-user-graduate fa-sm"></i> Education
-                </NavLink>
-              </li>
               <li className="nav-item">
              <a activeclassname="active" class="nav-links" href="https://kaw-portfolio.netlify.app" rel="noreferrer"><i class="fa-solid fa-address-card fa-sm"></i>Portfolio</a>
             </li>
