@@ -16,10 +16,10 @@ const Home = () => {
                 <Navbar/>
                 <div className="container">
                     <div className="row">
-                        <div className="col s12 m3">
+                        <div className="col s12 m12 l3 xl3">
                             <Profile/>
                         </div>
-                        <div className="col s12 m9">
+                        <div className="col s12 m12 l9 xl9">
                             <About/>
                             <Skills/>
                             <Experience/>
