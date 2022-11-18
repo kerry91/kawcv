@@ -18,6 +18,10 @@
   right: 5%;
 }
 
+.nav-logo{
+  font-size: 26px;
+}
+
 .page-footer, .footer-copyright{
   background-color: aquamarine !important;
   color: black !important;

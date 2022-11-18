@@ -11,11 +11,7 @@ const Navbar = () => {
     <div className={click ? "navbar" : ""} onClick={() => Close()} />
         <nav className="navbar" onClick={(e) => e.stopPropagation()}>
           <div class="nav-wrapper">
-            <NavLink exact to="/" className="nav-logo black-text">
-              KAW Inc.
-            </NavLink>
-            {/*eslint-disable-next-line jsx-a11y/anchor-is-valid*/}
-            <a
+          <a
               href="#"
               data-target="slide-out"
               class="sidenav-trigger black-text"
@@ -23,6 +19,11 @@ const Navbar = () => {
             >
               <i class="fa-solid fa-bars"></i>
             </a>
+            <NavLink exact to="/" className="nav-logo black-text">
+              KAW Inc.
+            </NavLink>
+            {/*eslint-disable-next-line jsx-a11y/anchor-is-valid*/}
+
             <ul
               className={click ? "nav-menu active" : "nav-menu"}
             >
