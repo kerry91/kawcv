@@ -13,12 +13,13 @@ const Portfolio = () => {
             <div className="portfolio-wrapper">
               <div className="portfolio-link">
                 <a
+                className="portfolio-link"
                   href="https://kaw-portfolio.netlify.app"
                   target="_blank"
                   rel="noreferrer"
                 >
                   Portfolio this way
-                </a>{" "}
+                </a>
               </div>
             </div>
           </div>

@@ -325,6 +325,8 @@ button:hover, a:hover {
   align-items: center;
   justify-content: center;
   z-index: 20;
+  width: 100%;
+  color: white;
  }
 
  img{
