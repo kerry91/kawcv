@@ -12,7 +12,6 @@ const Footer = () => {
           </div>
           <div className="footer-copyright">
             © 2022 KAW Inc
-            <a className="grey-text text-lighten-4 right" href="#!">More Links</a>
           </div>
         </footer>
         </>

@@ -4,6 +4,7 @@ const Portfolio = () => {
   return (
     <>
       <div className="card">
+      <Homebtn />
         <div className="card-content">
         <h6 className="at-bottom">
             <strong>PORTFOLIO</strong>
@@ -22,7 +23,6 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <Homebtn />
       </div>
     </>
   );

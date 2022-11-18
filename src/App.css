@@ -25,26 +25,6 @@
     color: black;
 }
 
-.skills-wrapper{
-  background-color: #535151;
-  border-top-right-radius: 2em;
-  border-bottom-right-radius: 2em;
-}
-
-.skills {
-  text-align: right;
-  padding: 5px 10px 5px 10px;
-  margin: 0 0 2.5% 0;
-  color: rgb(5, 5, 5);
-  border-top-right-radius: 2em;
-  border-bottom-right-radius: 2em;
-}
-
-.html {width: 95%; background-color: orangered;}
-.css {width: 95%; background-color: blue; color: #fff;} 
-.js {width: 85%; background-color: yellow;} 
-.sql {width: 55%; background-color: purple; color: #fff;} 
-
 .portfolio-wrapper{
   background-color: aquamarine;
 }
@@ -253,6 +233,11 @@ button:hover, a:hover {
   height: 100vh;
 }
 
+.profile-picture{
+  width: 100%;
+  height: 12rem;
+}
+
 .portfolio-outer{
   display: flex;
   justify-content: center;
@@ -334,4 +319,14 @@ button:hover, a:hover {
   align-items: center;
   justify-content: center;
   z-index: 20;
+ }
+
+ img{
+  height: 10rem;
+  width: 10rem;
+ }
+
+ .card-panel{
+  height: 13rem;
+  width: 13rem;
  }

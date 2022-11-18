@@ -5,7 +5,9 @@ import Tcard from "../timeline/Tcard";
 const Education = () =>{
     return(
         <>
+         
       <div className="card">
+      <Homebtn />
         <div className="card-content">
           <h6 className="at-bottom">
             <strong>EDUCATION</strong>
@@ -41,7 +43,6 @@ const Education = () =>{
             </div>
           </div>
         </div>
-        <Homebtn />
       </div>
     </>
     )

@@ -45,7 +45,7 @@ const Navbar = () => {
                   className="nav-links"
                   onClick={click ? handleClick : null}
                 >
-                  <i class="fa-solid fa-wand-magic-sparkles fa-sm"></i> Skills
+                  <i class="fa-solid fa-wand-magic-sparkles fa-sm"></i> Languages
                 </NavLink>
               </li>
               <li>

@@ -5,6 +5,7 @@ const Experience = () => {
   return (
     <>
       <div className="card">
+      <Homebtn />
         <div className="card-content">
           <h6 className="at-bottom">
             <strong>EXPERIENCE</strong>
@@ -30,7 +31,6 @@ const Experience = () => {
             </div>
           </div>
         </div>
-        <Homebtn />
       </div>
     </>
   );
