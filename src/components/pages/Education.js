@@ -1,5 +1,4 @@
 
-import Homebtn from "../navbar/Homebtn";
 import Tcard from "../timeline/Tcard";
 
 const Education = () =>{
@@ -7,7 +6,6 @@ const Education = () =>{
         <>
          
       <div className="card">
-      <Homebtn />
         <div className="card-content">
           <h6 className="at-bottom">
             <strong>EDUCATION</strong>

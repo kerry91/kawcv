@@ -1,11 +1,10 @@
-import Homebtn from "../navbar/Homebtn";
+
 import Tcard from "../timeline/Tcard";
 
 const Experience = () => {
   return (
     <>
       <div className="card">
-      <Homebtn />
         <div className="card-content">
           <h6 className="at-bottom">
             <strong>EXPERIENCE</strong>

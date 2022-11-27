@@ -9,7 +9,7 @@ const About = () => {
               <strong>ABOUT ME</strong>
             </h6>
             <p className="grey-text">
-              My ultimate goal is to become a Frontend Developer.
+              My goal is to become a Frontend Developer.
             </p>
           </div>
           <div className="card-action">
