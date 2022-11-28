@@ -20,6 +20,9 @@ const Skills = () => {
             <div class="col s12 m6 l6 xl3">
               <Lcard image="https://cdn.worldvectorlogo.com/logos/javascript-1.svg" />
             </div>
+            <div class="col s12 m6 l6 xl3">
+              <Lcard image="https://cdn.worldvectorlogo.com/logos/sass-1.svg" />
+            </div>
           </div>
           <hr />
 
@@ -84,6 +87,15 @@ const Skills = () => {
             </div>
             <div class="col s12 m6 l6 xl3">
               <Lcard image="https://cdn.worldvectorlogo.com/logos/github-icon-1.svg"/>
+            </div>
+          </div>
+          <hr />
+          <h6>
+            <strong>PACKAGE MANAGER/SCRIPTS</strong>
+          </h6>
+          <div className="row">
+          <div class="col s12 m6 l6 xl3">
+              <Lcard image="https://cdn.worldvectorlogo.com/logos/npm.svg" />
             </div>
           </div>
         </div>
