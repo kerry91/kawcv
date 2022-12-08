@@ -15,17 +15,17 @@ const Education = () =>{
               <div class="outer">
                 <Tcard
                   TcardTitle="Bath Spa University (SEP 2022 - NOV 2022 )"
-                  TcardContent="Level 3 web development bootcamp - PASSED"
+                  TcardContent="BSU-IOC Web Development Digital Skills Bootcamp - COMPLETED"
                 />
 
                 <Tcard
                   TcardTitle="Learning Curve Group (JUN 2022 - AUG 2022)"
-                  TcardContent="NCFE Level 3 Certificate in Coding Practices - PASSED"
+                  TcardContent="NCFE Level 3 Certificate in Coding Practices - COMPLETED"
                 />
 
                 <Tcard
                   TcardTitle="Gateshead College (MAY 2022 - JUN 2022)"
-                  TcardContent="Web development level 3 - PASSED"
+                  TcardContent="Web development level 3 - DISTINCTION"
                 />
 
                 <Tcard

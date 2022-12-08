@@ -1,5 +1,6 @@
 import buefy from "../images/buefy.png"
 import materialize from "../images/materialize.png"
+import bsuBadge from "../images/bsuBadge.png"
 import Lcard from "./languages/Lcard";
 
 const Skills = () => {
@@ -95,9 +96,19 @@ const Skills = () => {
           </h6>
           <div className="row">
           <div class="col s12 m6 l6 xl3">
-              <Lcard image="https://cdn.worldvectorlogo.com/logos/npm.svg" />
+              <Lcard image="https://cdn.worldvectorlogo.com/logos/npm.svg"/>
             </div>
           </div>
+          <hr/>
+          <h6>
+            <strong>BADGES</strong>
+          </h6>
+          <div className="row">
+          <div class="col s12 m6 l6 xl3">
+              <Lcard image={bsuBadge} />
+            </div>
+          </div>
+
         </div>
       </div>
     </>
