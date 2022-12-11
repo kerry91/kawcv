@@ -15,10 +15,10 @@ const Home = () => {
                 <Navbar/>
                 <div className="container">
                     <div className="row">
-                        <div className="col s12 m12 l3 xl3">
+                        <div className="col s12 m12 l4 xl4">
                             <Profile/>
                         </div>
-                        <div className="col s12 m12 l9 xl9">
+                        <div className="col s12 m12 l8 xl8">
                             <About/>
                             <Skills/>
                             <Experience/>

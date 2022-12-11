@@ -29,8 +29,8 @@ const Education = () =>{
                 />
 
                 <Tcard
-                  TcardTitle="Colchester Institute (2012 - 2015)"
-                  TcardContent="Bachelor's degree in computer science - HIGH 2:2"
+                  TcardTitle="University of Essex (course of study at Colchester Institute)"
+                  TcardContent="Bachelor of Science with Honours in computing solutions (networks) - HIGH 2:2"
                 />
 
                 <Tcard
