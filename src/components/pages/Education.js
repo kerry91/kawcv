@@ -13,6 +13,11 @@ const Education = () =>{
           <div className="timeline-wrapper">
             <div class="timeline">
               <div class="outer">
+              <Tcard
+                  TcardTitle="Coursera Project Network (DEC 2022)"
+                  TcardContent="Introduction to Unit Testing in Jest, The Fundamentals - PASS 90%"
+                  certificateDetails="Credential ID: STN9HPKSFWVM"
+                />
                 <Tcard
                   TcardTitle="Bath Spa University (SEP 2022 - NOV 2022 )"
                   TcardContent="BSU-IOC Web Development Digital Skills Bootcamp - COMPLETED"

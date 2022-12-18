@@ -11,6 +11,8 @@ const About = () => {
               I have a dogged determination to solve problems and have good customer service. 
               I enjoy working as a part of a team or completing tasks on my own. 
             </p>
+            <br/>
+            <p className="grey-text">I would need to start in a Junior/Graduate position in order to build on the skills I already know.</p>
           </div>
           <div className="card-action">
             <h6>

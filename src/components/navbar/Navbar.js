@@ -21,7 +21,7 @@ const Navbar = () => {
               <i class="fa-solid fa-bars"></i>
             </a>
             <NavLink exact to="/" className="nav-logo black-text">
-              KAW Inc.
+            <i class="fa-solid fa-code"></i>  KAW CV
             </NavLink>
             {/*eslint-disable-next-line jsx-a11y/anchor-is-valid*/}
 

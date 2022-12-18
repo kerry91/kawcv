@@ -7,6 +7,9 @@ const Tcard = (props) => {
             <p>
               {props.TcardContent}
             </p>
+            <p>
+              {props.certificateDetails}
+            </p>
           </div>
         </div>
       </>

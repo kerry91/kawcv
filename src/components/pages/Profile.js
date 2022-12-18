@@ -12,7 +12,6 @@ const Profile = () => {
                 alt="Profile"
               />
               <h3>Kerry A Warnes</h3>
-              <p class="profile-title">Frontend Developer in Training</p>
               <p></p>
               <p>
                 <div className="card-bottom">
