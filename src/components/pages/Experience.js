@@ -12,6 +12,10 @@ const Experience = () => {
           <div className="timeline-wrapper">
             <div class="timeline">
               <div class="outer">
+              <Tcard
+                  TcardTitle="Looking for work (NOV 2021 - PRESENT)"
+                  TcardContent="Looking for work and taking on training courses to upskill."
+                />
                 <Tcard
                   TcardTitle="Azura Group Ltd (NOV 2019 - NOV 2021)"
                   TcardContent="Software developer and Customer Project Manager"
