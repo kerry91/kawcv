@@ -2,7 +2,6 @@ import React from "react"
 import Navbar from "../navbar/Navbar"
 import Profile from './Profile'
 import About from "./About"
-import Skills from './Skills'
 import Experience from './Experience'
 import Education from './Education'
 import Footer from "../footer/Footer"
@@ -20,7 +19,6 @@ const Home = () => {
                         </div>
                         <div className="col s12 m12 l8 xl8">
                             <About/>
-                            <Skills/>
                             <Experience/>
                             <Education/>
                         </div>
