@@ -1,5 +1,5 @@
 
-import Tcard from "../timeline/Tcard";
+import TEDUcard from "../timeline/TEDU/TEDUcard";
 
 const Education = () =>{
     return(
@@ -13,34 +13,46 @@ const Education = () =>{
           <div className="timeline-wrapper">
             <div class="timeline">
               <div class="outer">
-              <Tcard
-                  TcardTitle="Coursera Project Network (DEC 2022)"
-                  TcardContent="Introduction to Unit Testing in Jest, The Fundamentals - PASS 90%"
-                  certificateDetails="Credential ID: STN9HPKSFWVM"
+              <TEDUcard
+                  title="Coursera Project Network"
+                  year="DEC 2022"
+                  content="Introduction to Unit Testing in Jest, The Fundamentals"
+                  status="PASS 90%"
+                  cid="Credential ID: STN9HPKSFWVM"
                 />
-                <Tcard
-                  TcardTitle="Bath Spa University (SEP 2022 - NOV 2022 )"
-                  TcardContent="BSU-IOC Web Development Digital Skills Bootcamp - COMPLETED"
-                />
-
-                <Tcard
-                  TcardTitle="Learning Curve Group (JUN 2022 - AUG 2022)"
-                  TcardContent="NCFE Level 3 Certificate in Coding Practices - COMPLETED"
-                />
-
-                <Tcard
-                  TcardTitle="Gateshead College (MAY 2022 - JUN 2022)"
-                  TcardContent="Web development level 3 - DISTINCTION"
+                <TEDUcard
+                  title="Bath Spa University"
+                  year="SEP 2022 - NOV 2022"
+                  content="BSU-IOC Web Development Digital Skills Bootcamp"
+                  status="COMPLETED"
                 />
 
-                <Tcard
-                  TcardTitle="University of Essex (course of study at Colchester Institute) (2012 - 2015)"
-                  TcardContent="Bachelor of Science with Honours in computing solutions (networks) - HIGH 2:2"
+                <TEDUcard
+                  title="Learning Curve Group"
+                  year="JUN 2022 - AUG 2022"
+                  content="NCFE Level 3 Certificate in Coding Practices"
+                  status="COMPLETED"
                 />
 
-                <Tcard
-                  TcardTitle="Colchester Institute (2010 - 2012)"
-                  TcardContent="BTEC level 3 in computing- MERIT"
+                <TEDUcard
+                  title="Gateshead College"
+                  year="MAY 2022 - JUN 2022"
+                  content="Web development level 3"
+                  status="DISTINCTION"
+                />
+
+                <TEDUcard
+                  title="University of Essex (course of study at Colchester Institute)"
+                  year="2012 - 2015"
+                  content="Bachelor of Science with Honours in computing solutions (networks)"
+                  status="HIGH 2:2"
+                />
+
+                <TEDUcard
+                  title="Colchester Institute"
+                  year="2010 - 2012"
+                  content="BTEC level 3 in computing"
+                  status="MERIT"
                 />
               </div>
             </div>
